@@ -18,6 +18,7 @@ To demonstrate the Multisig functionality, you must simulate the consensus betwe
 - Select **"Create Account"** to generate **Account 2** and **Account 3**.
 - Ensure these addresses match the `ownersAddresses` defined in your deployment script.
 - You will need to switch between these accounts to **confirm** a transaction before it can be **executed** .
+To deploy the contracts you have to create 3 account, and put the private key in the .env file.
 
 ### 3. Get Sepolia ETH (Faucet)
 You need SepoliaETH to pay for the "Gas" required to submit, confirm, and execute transactions.
