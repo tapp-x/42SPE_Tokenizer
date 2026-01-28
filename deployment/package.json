@@ -1,0 +1,31 @@
+{
+  "name": "42spe_tokenizer",
+  "version": "1.0.0",
+  "description": "This 42 project aims to create its own token on Web 3 (blockchain of our choice).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tapp-x/42SPE_Tokenizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tapp-x/42SPE_Tokenizer/issues"
+  },
+  "homepage": "https://github.com/tapp-x/42SPE_Tokenizer#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.7",
+    "hardhat": "^2.22.4"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5",
+    "hardhat-ethers": "^1.0.1"
+  }
+}
