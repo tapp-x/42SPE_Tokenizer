@@ -6,6 +6,11 @@ const { ALCHEMY_URL, PRIVATE_KEY_A, PRIVATE_KEY_B, PRIVATE_KEY_C, ETHERSCNAN_API
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.28",
+  paths: {
+    sources: "./code",
+    tests: "./deployment/test",
+    scripts: "./deployment/scripts"
+  },
   networks: {
     hardhat: {
     },
@@ -16,12 +21,10 @@ module.exports = {
   },
   etherscan: {
     // Your API key for Etherscan
-    // Obtain one at https://etherscan.io/
+    // Obtain one at https://docs.etherscan.io/getting-an-api-key
     apiKey: ETHERSCNAN_API_KEY
   },
   sourcify: {
-    // Disabled by default
-    // Doesn't need an API key
     enabled: true
   }
 };
